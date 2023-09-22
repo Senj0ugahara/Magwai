@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
+  <title>Magwai</title>
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/vendor.css">
+  <link rel="stylesheet" href="styles/style.min.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <header class="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="burger header-burger">
+          <div class="burger__line"></div>
+        </div>
+        <div class="header-logo">
+          <a class="header-logo__link" href="/">
+            <img src="resources/images/logo.svg" alt="magwai">
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="list-reset nav-list">
+            <li class="nav-item">
+              <a class="nav-item__link" href="#">Услуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="#">Абонементы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="#">Почему мы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="#">Оборудование</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="#">Акции</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="#">Faq</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="header-feedback header-feedback_mobile">
+            <a class="header-feedback__phone" href="tel:4952152973">
+              <img src="resources/images/phone-icon.svg" alt="phone icon">
+            </a>
+            <button class="btn-reset btn header-feedback__btn">Оставить заявку</button>
+          </div>
+        </nav>
+        <div class="header-feedback">
+          <a class="header-feedback__phone" href="tel:4952152973">
+            <img src="resources/images/phone-icon.svg" alt="phone icon">
+          </a>
+          <button class="btn-reset btn modal-btn header-feedback__btn">Оставить заявку</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-wrapper">
+          <h1 class="main-title hero-title">
+            Полет Илона Маска<br>
+            и DOGIE COIN
+          </h1>
+          <p class="hero-descr">
+            В прошлый четверг все офигели от полета DOGIE COIN на марс.
+          </p>
+          <button class="btn-reset btn modal-btn hero-btn">Оставить заявку</button>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="container">
+        <h2 class="title cards-title">Карточки</h2>
+        <ul class="list-reset cards-list"></ul>
+        <button class="btn-reset btn cards__btn">Загрузить еще</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal">
+    <div class="modal-wrapper">
+      <div class="modal__close">&#10006;</div>
+      <div class="modal__header">
+        <h2 class="titile modal__title">Оставте заявку!</h2>
+      </div>
+      <div class="modal__body">
+        <form class="form">
+          <div class="form-wrapper">
+            <input class="input-reset input form__input" type="text" name="name" placeholder="Ваше Имя">
+            <input class="input-reset input form__input" type="text" name="phone" placeholder="+7 (999) 999-99-99">
+            <button class="btn-reset form__btn">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/main.min.js"></script>
+</body>
+</html>
