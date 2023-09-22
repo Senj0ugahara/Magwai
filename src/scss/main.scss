@@ -1,0 +1,21 @@
+// Базовые подключения
+@import "fonts";
+@import "settings";
+@import "vars";
+
+// Подключение UI компонентов
+@import "./UI/btn";
+@import "./UI/burger";
+@import "./UI/input";
+
+// Подключения компонентов страницы (маленькие)
+@import "./components/nav";
+@import "./components/card";
+@import "./components/modal";
+@import "./components/form";
+
+// Подключения компонентов страницы (большие)
+@import "./components/header";
+@import "./components/hero";
+@import "./components/cards";
+@import "./components/footer";

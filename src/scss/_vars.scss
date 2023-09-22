@@ -1,0 +1,16 @@
+:root {
+  // Базовые
+  --font-family: 'Montserrat', sans-serif;
+  --content-width: 1750px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // Цвета
+  --color-main: #131313;
+  --color-text: #171717;
+  --color-gray: #666666;
+  --color-white: #ffffff;
+
+  // Размеры
+  --grid-gap: 30px;
+}

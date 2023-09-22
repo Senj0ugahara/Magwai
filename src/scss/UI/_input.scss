@@ -1,0 +1,23 @@
+.input {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  border: 1px solid var(--color-gray);
+  border-radius: 5px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  color: var(--color-text);
+
+  &.correct {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84,.25);
+  }
+
+  &.inCorrect {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69,.25);
+  }
+}

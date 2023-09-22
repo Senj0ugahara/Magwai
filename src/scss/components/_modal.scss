@@ -1,0 +1,51 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: none;
+  max-width: 400px;
+  width: 100%;
+  background: var(--color-white);
+  border-radius: 5px;
+  transform: translate(-50%, -50% );
+  animation: smoothVisible .3s ease-in-out;
+  z-index: 100;
+
+  @media (max-width: 480px) {
+    max-width: 300px;
+  }
+
+  &.is-active {
+    display: block;
+  }
+
+  &-wrapper {
+    position: relative;
+    padding: 40px 20px;
+  }
+
+  &__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: var(--color-text);
+    cursor: pointer;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    color: var(--color-text);
+    text-align: center;
+  }
+}
+
+@keyframes smoothVisible {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
